@@ -3,19 +3,20 @@ function helloWorld() {
     return "Hello, World!";
 }
 
+/* ---------------------------------------------------------------------------------------------- */\
+
+function sayHello(input) {
+    if(input === true) {
+        return "Hello, World!";
+    }else if(input === false) {
+        return "Goodbye, World?";
+    }else{
+        return ("Hello, " + input + "!");
+    }
+}
+
 /* ---------------------------------------------------------------------------------------------- */
 
-// function sayHello(name) {
-//     if(name === "Alex") {
-//         return "Hello, Alex";
-//     }else if (name === "Jane") {
-//         return "Hello, Jane";
-//     }else{
-//         return "Hello, Pat";
-//     }
+// function isFive(num) {
+//     return (num === 5);
 // }
-// console.log(sayHello("Jane"));
-
-function sayHello(name) {
-    return ("Hello, " + name + "!");
-}
